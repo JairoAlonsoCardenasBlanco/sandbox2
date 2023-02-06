@@ -1,0 +1,439 @@
+
+html{
+height:max-content;
+background-image:  url(fondo-bienvenido.jpg);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: 1850px 1000px;
+
+
+}
+
+.cuadrocolor{
+height: max-content;
+background-image: url(naranja.jpg);
+background-size: 1852px 1000px;
+padding: 28%;
+background-repeat: no-repeat;
+position: relative;
+left: -10px;
+top: 309px;
+
+
+}
+
+
+
+header{
+color: white;
+display:flex; 
+/*el display flex sirve para que el encabezado sea de lado a lado*/
+background-color: rgba(0, 0, 0, 0.8);
+/*la opacidad del header*/
+/*sera para el relleno entre textos o titulos*/
+position: fixed;
+top: 0%;
+left: 0%; 
+right: 0%;
+padding-right: none;
+z-index: 9999;
+
+
+
+}
+#titulo{
+font-size: 30px;
+position: relative;
+top: 10px;
+
+}
+
+/* tamaño de letra: font-size*/
+
+.Bienvenidos{
+align-items: center;
+justify-content: center;
+display: flex;
+color: white;
+position: relative;
+padding-top: 200px;
+top: 70px;
+left: 50px;
+bottom: -10px;
+font-size: 40px;
+font-family: sans-serif;
+
+
+}
+
+.Encantados{
+	font-family: sans-serif;
+font-size: 100px; 
+align-items: center;
+justify-content: center;
+display: flex;
+color: white;
+padding-top: 0%;
+position: relative;
+bottom: 50%;
+}
+
+.container3{
+
+
+	position: relative;
+	top: 10px;
+	left: none;
+	top: 325px;
+	background-size: 100px;
+	background-color: #f05f40;
+	padding: 190px;
+	font-size: 40px;
+	justify-items: center;
+	display: flex;
+
+
+
+}
+
+.container4{
+
+	width: 200px;
+	position: relative;
+	left: 650px;
+	top: -190px;
+
+
+}
+
+
+.container5{ 
+	font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  left: 345px;
+
+ 	}
+.container6{
+position: relative;
+top: 30px;
+color: white;
+font-size: 18px;
+font-weight: 100px;
+position: relative;
+left: -300px;
+top: 200px;
+text-align: center;
+width: fit-content;
+
+}
+
+.container7{
+    display: flex;
+	position: relative;
+	top: 10px;
+	left: none;
+	top: 300px;
+	background-size: 100px;
+	background-color: white;
+	padding: 90px;
+	font-size: 40px;
+	justify-items: center;
+	display: flex;
+
+	
+}
+
+.container8{
+	color: black;
+	font-family: sans-serif;
+	font-size: 40px;
+	align-items: center;
+	justify-items: center;
+	position: relative;
+	left: 699px;
+	top: -40px;
+	bottom: 100px;
+
+
+
+}
+
+.container9{
+	width: 150px;
+    position: relative;
+	left: -250px;
+	top: -50px;
+	border: 20px;
+	margin: 200px;
+	right: -30px;
+	
+}
+
+.container10{
+font-size: 20px;
+color: black;
+position: relative;
+left: 190px;
+top: 50px;
+font-family: sans-serif;
+
+
+}
+
+.container11{
+
+color: black;
+  font-size: 20px;
+  position: relative;
+  left: 780px;
+  top: 10px;
+  font-family: sans-serif;
+
+
+}
+
+/*position: relative;
+top: 30px;
+color: white;
+font-size: 18px;
+font-weight: 100px;
+position: relative;
+left: -300px;
+top: 200px;
+text-align: center;
+width: fit-content;*/
+
+.container12{
+font-family: sans-serif;
+color: black;
+font-size: 20px;
+position: relative;
+left: 1320px;
+top: -35px;
+
+}
+
+.container13{
+
+color: black;
+font-family: sans-serif;
+
+font-size: 18px;
+position: relative;
+left: -560px;
+top: -43px;
+text-align: center;
+justify-items: center;
+content: -100px;
+	 
+}
+
+
+.container14{
+
+color: black;
+font-family: sans-serif;
+font-size: 18px;
+position: relative;
+left: 650px;
+top: -80px;
+
+}
+
+.container15{
+
+	color: black;
+	font-family: sans-serif;
+	font-size: 18px;
+	position: relative;
+	left: 1240px;
+	top: -115px;
+
+}
+
+.container16{
+
+background-color: #3c3c3c;
+width: 1900px;
+position: relative;
+height: 1100px;
+
+}
+
+.container17{
+font-size: 50px;
+color: white;
+font-family: sans-serif;
+position: relative; 
+left: 33%;
+top: 5%;
+
+
+}
+
+.container18{
+
+width: 500px;
+height: 350px;
+margin: 20px;
+position: relative;
+top: 70px;
+left: 80px;
+transition: 0.5s;
+object-fit: cover;
+}
+ 
+.container18:hover{
+transform: scale(1.1);
+}
+
+.container19{
+
+width: 500px;
+height: 350px;
+margin: 20px;
+position: relative;
+left: 80px;
+top: 67px;
+transition: 0.5s;
+object-fit: cover;
+
+}
+.container19:hover{
+transform:scale(1.1);
+
+
+}
+
+
+
+.container20{
+background-color: #272727;
+height: 83px;
+position: relative;
+top: -103px;
+width: 1899px;
+
+
+
+}
+
+.final{
+color: white;
+position: relative;
+left: 750px;
+top: 30px;
+font-family: sans-serif;
+font-size: 15px;
+
+}
+
+
+.contacto{
+background: #f05f40;
+position: relative;
+margin: 8px 8px ;
+padding: 19px;
+left: 45%;
+text-decoration: none;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+} 
+
+.contacto:hover{
+
+background-color: #f05f40;
+}
+
+.menu{
+		position:relative;
+		top: -45px;
+		left: 1000px;
+		bottom: 45px;
+		margin: 20px;
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		border: 20px white;
+		text-decoration: none;
+		font-size: 20px;
+	/* para quitare la linea debajo del href*/
+
+			
+}
+
+.menu{
+
+background-color:rgba(0, 0, 0, 0.0);
+transition: background-color .5s;
+position: relative;
+margin: 8px 8px ;
+padding: 19px;
+
+}
+
+.menu:hover{
+
+background-color: #fc4b08;
+
+}
+
+.Conocenos{
+	font-size: 250%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+	position: relative;
+	left: 30%;
+	right: 50%;
+	top: -50px;
+	padding: -20px;
+
+
+
+}
+
+#titulo{
+
+	font-family:Arial, Helvetica, sans-serif ;
+	position: relative;
+	left: 200px;
+	
+}
+
+h3.entrada {
+
+color: purple;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+#bienvenida {
+	color: blue;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* MENSAJE DE AYUDA: Cuando es una ID se pone = #(Nombre asignado)
+
+					Cuando es una etiqueta Class se pone = .(Nombre asignado)
+
+					Recordatorio de etiqueta = cuando ponemos un
+					dentro de la etiqueta <div> hay muchos parrafos y queremos hacer
+					le mismo estilo a todos se pone en CSS, y colorea todo lo que haya
+					dentro de ese div que empieze por la etiqueta
+					seleccionada                                      <div>
+																		<p> dsakjdsakldasjdas </p>
+																		<p> dssajkdjsalkdasdsad </p>
+																		<p> sadljsadlksajdksaajd </p>                     
+																		</div>                                                
+													div p{
+													color: black;
+													{
+*/
+
+.class{
+	color: azure;
+	font-family: 'Courier New', Courier, monospace  ;
+}
